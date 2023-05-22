@@ -1,0 +1,16 @@
+Source: alphaplot
+Section: unknown
+Priority: optional
+Maintainer: zinface <zinface@163.com>
+Build-Depends: debhelper (>=11~), qt5-qmake, libgsl-dev, libqt5datavisualization5-dev
+Standards-Version: 4.1.4
+Homepage: https://github.com/narunlifescience/AlphaPlot
+
+Package: alphaplot
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Linux 下最好用的科研绘图软件
+ Application for statistical analysis and data visualization which can 
+ generate different types of publication quality 2D and 3D plots with 
+ extensive visual customization.
